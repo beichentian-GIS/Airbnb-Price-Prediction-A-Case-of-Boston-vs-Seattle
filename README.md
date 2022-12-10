@@ -9,10 +9,12 @@
 
 # Installations
 Python (version 3.8.8)
+
 Python libraries needed for the analysis:Pandas, Numpy, Matplotlib, Seaborn, SciKit-Learn
 
 # Project Motivations
 For this project, spatiotemporal analyses and predictive modelings were run for data on AirBnB homes located in Boston and Seattle. 
+
 Three business questions were used to motivate the analyses:
 
 - Does location pose potential impacts on price variation?
@@ -40,4 +42,4 @@ The following are the files available in this repository:
 The insights of the analyses can be found at [this blog post](https://medium.com/@btiangis91/airbnb-price-prediction-a-case-of-boston-vs-seattle-e5bdf023d169) on Medium: .
 
 # Licensing, Authors, Acknowledgements
-Credits are given to AirBnB for the data. Data licensing and other descriptive information can be reached at InsideAirbnb (http://insideairbnb.com/get-the-data/).
+Credits are given to AirBnB for the data. Data licensing and other descriptive information can be reached at [InsideAirbnb](http://insideairbnb.com/get-the-data/).
