@@ -4,7 +4,7 @@
 1. Installations
 2. Project Motivation
 3. File Descriptions
-4. Results
+4. Key Findings
 5. Licensing, Authors, Acknowledgements
 
 # Installations
@@ -13,7 +13,7 @@ Python (version 3.8.8)
 Python libraries needed for the analysis:Pandas, Numpy, Matplotlib, Seaborn, SciKit-Learn
 
 # Project Motivations
-For this project, spatiotemporal analyses and predictive modelings were run for data on AirBnB homes located in Boston and Seattle. 
+For this project, spatiotemporal analyses and predictive modelings were applied for data on AirBnB homes located in Boston and Seattle. 
 
 Three business questions were used to motivate the analyses:
 
@@ -38,8 +38,12 @@ The following are the files available in this repository:
 
 ` reviews.csv` : csvs containing home_id, date of review, reviewer_id, reviewer_name, and reviewer comments for the reviewed stays.
 
-# Results
-The insights of the analyses can be found at [this blog post](https://medium.com/@btiangis91/airbnb-price-prediction-a-case-of-boston-vs-seattle-e5bdf023d169) on Medium: .
+# Key Findings
+- Locations of Airbnb can impact prices. Generally, the closer to urban centers the pricier the Airbnb can be. And the most rated Airbnb neighborhoods are usually not distant from urban centers as well.
+- Time of bookings (or checked-in) can impact prices. Generally, prices in weekends are pricier than prices on weekdays. In addition, price variation displays distinct seasonality --- which means some seasons of a city are more visited/ welcomed than other seasons. However, specific performances of seasonality may vary by cities.
+- Factors such as accomodates, locations (latitudes, longitudes), bathrooms, reviews per month are more associated with price variations than other factors.
+
+A detailed version the analyses and insights can be found at [this blog post](https://medium.com/@btiangis91/airbnb-price-prediction-a-case-of-boston-vs-seattle-e5bdf023d169) on Medium: .
 
 # Licensing, Authors, Acknowledgements
 Credits are given to AirBnB for the data. Data licensing and other descriptive information can be reached at [InsideAirbnb](http://insideairbnb.com/get-the-data/).
