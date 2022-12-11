@@ -41,7 +41,7 @@ The following are the files available in this repository:
 # Key Findings
 - Locations of Airbnb can impact prices. Generally, the closer to urban centers the pricier the Airbnb can be. And the most rated Airbnb neighborhoods are usually not distant from urban centers as well.
 - Time of bookings (or checked-in) can impact prices. Generally, prices in weekends are pricier than prices on weekdays. In addition, price variation displays distinct seasonality --- which means some seasons of a city are more visited/ welcomed than other seasons. However, specific performances of seasonality may vary by cities.
-- Factors such as accomodates, locations (latitudes, longitudes), bathrooms, reviews per month are more associated with price variations than other factors.
+- Factors such as accomodates (visitor capacity), locations (latitudes, longitudes), bathrooms, reviews per month are more associated with price variations than other factors.
 
 A detailed version the analyses and insights can be found at [this blog post](https://medium.com/@btiangis91/airbnb-price-prediction-a-case-of-boston-vs-seattle-e5bdf023d169) on Medium: .
 
